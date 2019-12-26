@@ -10,13 +10,14 @@
     <remote fetch="https://github.com/a3y17lte/" name="a3y17lte" />
     <remote fetch="https://github.com/Exynos7870/" name="Exynos7870" />
     <remote fetch="https://github.com/LineageOS/" name="LineageOS" />
+    <remote fetch="https://github.com/pjaap/" name="pjaap" />
 
     <!-- Device -->
     <project name="android_device_samsung_exynos7870-common" path="device/samsung/exynos7870-common" remote="Exynos7870" revision="lineage-16.0-matt" />
     <project name="device-specific" path="device/samsung/a3y17lte" remote="a3y17lte" revision="lineage-16.0" />
 
     <!-- Kernel -->
-    <project name="kernel" path="kernel/samsung/exynos7870" remote="a3y17lte" revision="lineage-16.0" />
+    <project name="kernel" path="kernel/samsung/exynos7870" remote="pjaap" revision="a3y17lte-upstream" />
 
     <!-- Vendor -->
     <project name="vendor" path="vendor/samsung/a3y17lte" remote="a3y17lte" revision="lineage-16.0" />
